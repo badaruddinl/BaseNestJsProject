@@ -64,6 +64,20 @@ This Project include user authentication with address, banks, mediaUpload and se
 
 Run with node version 14
 
+## Nigration
+
+```bash
+# Generate migration
+npm run typeorm migration:generate -- --name <migration_name>
+
+# Create migration
+npm run typeorm migration:create -- --name <migration_name>
+
+# Run migration
+npm run typeorm migration:run
+
+```
+
 ## ENV_FILE_EXAMPLE
 
 .env
