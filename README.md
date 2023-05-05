@@ -58,6 +58,53 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## My Support
+
+This Project include user authentication with address, banks, mediaUpload and sending mail notification for forget password, reset password and mail document created notification
+
+Run with node version 14
+
+## ENV_FILE_EXAMPLE
+
+.env
+```bash
+
+APP_PORT=APP_PORT
+APP_MODE=DEV/PROD
+
+#COMPANY NAME
+COMPANY_NAME=COMPANY_NAME
+
+# DATABASE
+DATABASE_CONNECTION=DATABASE_CONNECTION
+DATABASE_HOST=DATABASE_HOST
+DATABASE_USERNAME=DATABASE_USERNAME
+DATABASE_PASSWORD=DATABASE_PASSWORD
+DATABASE_NAME=DATABASE_NAME
+DATABASE_PORT=DATABASE_PORT
+
+
+#JWT
+JWT_SECRET=JWT_SECRET
+
+# EXPIRED MAGIGCODE IN DAY
+EXPIRED_MAGIC_CODE=15
+
+
+#CLOUDINARY
+CLOUDINARY_CLOUD_NAME=CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY=CLOUDINARY_API_KEY
+CLOUDINARY_SECRET=CLOUDINARY_SECRET
+
+#MAILTRAP
+MAILTRAP_TOKEN=MAILTRAP_TOKEN
+MAILTRAP_DOMAIN=MAILTRAP_DOMAIN
+
+#LINKNOTIFICATION
+FRONT_END_URL=https://domain.com/
+
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
