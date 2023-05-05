@@ -64,7 +64,7 @@ This Project include user authentication with address, banks, mediaUpload and se
 
 Run with node version 14
 
-## Nigration
+## Migration
 
 ```bash
 # Generate migration
