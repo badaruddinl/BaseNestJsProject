@@ -68,10 +68,10 @@ Run with node version 14
 
 ```bash
 # Generate migration
-npm run typeorm migration:generate -- --name <migration_name>
+npm run typeorm migration:generate -- --name "migration_name"
 
 # Create migration
-npm run typeorm migration:create -- --name <migration_name>
+npm run typeorm migration:create -- --name "migration_name"
 
 # Run migration
 npm run typeorm migration:run
